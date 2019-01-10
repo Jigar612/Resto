@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
                 inser_qty =ed_qty.getText().toString();
                 inser_total = tv_total.getText().toString();
                 insert_note = ed_note.getText().toString();
-                new insertRecord_TableOrder().execute();
+                new insertRecord_TableOrder().execute();//dd
             }
         });
         btn_placed_order.setOnClickListener(new View.OnClickListener() {
