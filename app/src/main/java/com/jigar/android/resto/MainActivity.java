@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList arrayList_spinner_item_nm= new ArrayList();
     ArrayAdapter<String>adapter_item_name;
 
-    ArrayList<Row_Table_Record> arrayList_tableRecord = new ArrayList();
+    ArrayList<Row_Table_Record> arrayList_tableRecord = new ArrayList<Row_Table_Record>();
 
     TextView tv_item_price,tv_total;
     EditText ed_qty,ed_note;
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position_nm, long id) {
                 arrayList_spinner_item_nm.clear();
                 selected_category_name = (String) parent.getItemAtPosition(position_nm);
-//                new getIDSelectedName().execute();
+                new getIDSelectedName().execute();
 
 //                resultInterface = new resultInterface() {
 //                    @Override
