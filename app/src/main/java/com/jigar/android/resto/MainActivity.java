@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList arrayList_spinner_item_nm= new ArrayList();
     ArrayAdapter<String>adapter_item_name;
 
-    ArrayList<Row_Table_Record> arrayList_tableRecord = new ArrayList<Row_Table_Record>();
+    ArrayList<Row_Table_Record> arrayList_tableRecord = new ArrayList<Row_Table_Record>();//ll
 
     TextView tv_item_price,tv_total;
     EditText ed_qty,ed_note;
